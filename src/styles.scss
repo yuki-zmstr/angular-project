@@ -7,6 +7,7 @@ $primary: #900;
 $enable-shadows: true;
 $prefix: "mo-";
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 * {
     padding: 0;
     margin: 0;
@@ -18,5 +19,6 @@ $prefix: "mo-";
 }
 
 body {
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
